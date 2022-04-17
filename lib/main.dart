@@ -15,12 +15,24 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.cyan
 
       ),
-      body: Center(
-        child: IconButton(
-          onPressed: () {},
-          icon: Icon(Icons.ice_skating_outlined),
-          color: Colors.amber,
-        ),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          Text('Hello world'),
+         Container(
+           color: Colors.amber,
+           padding: EdgeInsets.all(20.40),
+           child: Text('Click'),
+
+         )
+
+
+
+
+        ],
+
+
       ),
       floatingActionButton: FloatingActionButton(
 
